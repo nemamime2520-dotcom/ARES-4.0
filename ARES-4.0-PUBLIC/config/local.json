@@ -1,0 +1,17 @@
+﻿{
+  "exchange": {
+    "name": "binance",
+    "sandbox": true,
+    "testnet": true
+  },
+  "trading": {
+    "pairs": ["BTC/USDT", "ETH/USDT"],
+    "max_position_size": 100,
+    "daily_loss_limit": 2,
+    "check_interval": 5
+  },
+  "risk_management": {
+    "max_drawdown": 5.0,
+    "emergency_stop": true
+  }
+}
